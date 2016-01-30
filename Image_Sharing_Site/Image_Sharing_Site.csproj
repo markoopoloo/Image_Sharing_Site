@@ -133,6 +133,7 @@
   <ItemGroup>
     <Folder Include="CSS\" />
     <Folder Include="SQL_Scripts\" />
+    <Folder Include="uploaded_images\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
