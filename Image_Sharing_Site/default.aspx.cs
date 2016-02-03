@@ -30,14 +30,28 @@ namespace Image_Sharing_Site
                         if (!Directory.Exists(uploadedImagesFolder))
                         {
                             Directory.CreateDirectory(uploadedImagesFolder);
-
                             string extension = Path.GetExtension(fileUpload.FileName);
                             string uniqueFileName = Path.ChangeExtension(fileUpload.FileName,DateTime.Now.Ticks.ToString());
-
                             fileUpload.SaveAs(Path.Combine(uploadedImagesFolder, uniqueFileName + extension));
                         }
+                        else
+                        {
+                             
+                        }
                     }
-                }   
+                    else
+                    {
+                        
+                    }
+                }
+                else
+                {
+                    
+                }  
+            }
+            else
+            {
+                
             }
         }
     }

@@ -115,9 +115,13 @@
   <ItemGroup>
     <Content Include="scripts\ai.0.15.0-build58334.js" />
     <Content Include="scripts\ai.0.15.0-build58334.min.js" />
+    <Content Include="SQL_Scripts\Create_Images_Comments.sql" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Code\DataAccessLayer\ConnectionString.cs" />
+    <Content Include="App_Code\BusinessLayer\uploadedImage.cs" />
+    <Content Include="App_Code\BusinessLayer\comment.cs" />
     <Compile Include="default.aspx.cs">
       <DependentUpon>default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -132,7 +136,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="CSS\" />
-    <Folder Include="SQL_Scripts\" />
     <Folder Include="uploaded_images\" />
   </ItemGroup>
   <PropertyGroup>
